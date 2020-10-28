@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import './App.css';
+import SingUp from './components/sing_up'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <SingUp/>
   </React.StrictMode>,
   document.getElementById('root')
 );
